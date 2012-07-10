@@ -1,0 +1,20 @@
+{
+  "name": "onsparetime.com",
+  "subdomain": "onsparetime",
+  "domains": [
+    "onsparetime.com",
+    "www.onsparetime.com"
+  ],
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.0.0-5",
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "prime": ">= 0",
+    "handlebars": ">= 0",
+    "less": ">= 0"
+  }
+}

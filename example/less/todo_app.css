@@ -1,0 +1,26 @@
+/* base.css overrides */
+.toggleall{
+    font-size: 28px;
+    	color: #d9d9d9;
+    	padding: 0 25px 7px;
+}
+
+input[type="submit"], button[type="submit"]{
+    cursor: pointer;
+}
+.toggle{
+    font-size: 18px;
+    	line-height: 43px; /* 40 + a couple of pixels visual adjustment */
+    	font-size: 20px;
+    	color: #d9d9d9;
+    	text-shadow: 0 -1px 0 #bfbfbf;
+}
+.toggle.checked{
+    color: #85ada7;
+   	text-shadow: 0 1px 0 #669991;
+   	bottom: 1px;
+   	position: relative;
+}
+.hidden{
+    display: none;
+}
